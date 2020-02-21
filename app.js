@@ -4,7 +4,7 @@
 
 $.ajax({
   method: "GET",
-     url: "https://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php?zip=93955",
+     url: "https://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php?",
 dataType: "json",
     data: { "zip": $("#zip").val()},
 success: function(result,status) {
